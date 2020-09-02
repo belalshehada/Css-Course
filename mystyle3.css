@@ -1,0 +1,44 @@
+body
+{
+    margin: auto 200px;
+    background:#2d4059; 
+}
+div
+{
+background-color:#DDD;
+color:rgb(100,100,50);
+text-align:center;
+letter-spacing:2px;
+word-spacing:normal;
+line-height:300%;
+direction:rtl;
+padding:10px;
+margin:10px;
+border:2px solid #f00;
+text-indent:10px;
+white-space:normal;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+a:active{
+    color:green;
+    text-decoration:overline;
+    font-weight: bold;
+}
+span.cap{text-transform:capitalize;}
+span.upper{text-transform:uppercase;}
+span.lower{text-transform:lowercase;}
+.fonts{
+    font-family:"Trebuchet MS",cursive,Tohama,Arial;
+    font-style:italic;
+    font-size:20px;
+    font-weight:bold;
+}
+p.fonts_2{
+    /* font-style font-weight  font-size / line-height  font-family*/
+    font:italic bold 16px/10px cursive,Tohama,Arial;
+}
