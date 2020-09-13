@@ -1,0 +1,34 @@
+*{
+    padding: 10px;
+    margin:10px;
+}
+.parent > div{       /*  Direct  */
+    background: #DDD;
+}
+.child+ p{              /*  Some Container  */
+    background: #00f;
+}
+p  ~ a{      /* set of brothers*/
+    background: #080;
+}
+.parent span{
+    background: #098;
+}
+.child  p{
+    background: #940;
+}
+.parent  > p{  /* (one )Direct*/
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+.parent:first-letter {
+    color: #ffc93c;
+}
+.child:first-line{
+    color: #ffc93c;
+}
+.child:first-child{
+    color:#ffc93c;
+    font-size: 20px;
+}

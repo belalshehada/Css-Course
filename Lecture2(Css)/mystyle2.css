@@ -1,0 +1,25 @@
+body{
+    background-image: url("background1.jpg");
+    background-repeat:repeat;
+    background-position:right top;
+    opacity: 1;
+}
+h1{
+    background-color:#0000ff;
+    opacity: .3;
+    text-align: center;
+}
+p{
+    background-color: rgba(40,34,33,0.4);
+    font-weight: bold;
+}
+b{
+    background:#0000ff none no-repeat  fixed 0% 10%;
+    /*background:#color  url("")     repeat     attachment      top left*/
+}
+#hr1{
+    background-color: #EFEFEF;
+}
+.span1{
+    background:#ff0000 none no-repeat scroll top right;
+}
